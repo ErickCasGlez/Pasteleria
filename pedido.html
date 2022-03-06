@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="pedido.css">
+</head>
+<body>
+    <div class="datos">
+        <header>
+            <a href="./index.html"><img src="./Pasteles.png" alt="Logo" class="logo"></a>
+            <section class="info">
+                <label for="">Da click para ingresar a nuestro Facebook!
+                    <a href="https://es-la.facebook.com/" target="blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="face" class="icon">
+                    </a>
+                </label>
+                <label for="">Mándanos un mensaje con tu pedido
+                    <a href="https://web.whatsapp.com/" target="blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="whatsapp" class="icon">
+                    </a>
+                </label>
+                <label for="">Corre a tu sucursal más cercana
+                    <a href="https://www.google.com.mx/maps/preview" target="blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="maps" class="icon"
+                    ></a>
+                </label>
+                <label for=""> Ve nuestros trabajos y arreglos aquí
+                    <a href="https://www.instagram.com/?hl=es-la" target="blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="insta" class="icon">
+                    </a>
+                </label>
+            </section>
+        </header>
+    </div>
+    <nav>
+        <ul class="nav">
+            <li><a href="./sabores.html" class="menu">Sabores</a></li>
+            <li><a href="./adornos.html" class="menu">Adornos</a></li>
+            <li><a href="./pedido.html" class="menu">Haga su pedido</a></li>
+        </ul>
+    </nav>    
+    <section>
+        <hr class="division">
+    </section>
+    <section class="final">
+        <form action="./datos.txt" class="for">
+            <ul class="form">
+                <li class="sabores">
+                    <p>Seleccione los sabores del pastel:</p>
+                    <input type="radio" id="chocolate" name="sabor">
+                    <label for="chocolate">Chocolate</label>
+                    <br>
+                    <input type="radio" id="cafe" name="sabor">
+                    <label for="cafe">Café</label>
+                    <br>
+                    <input type="radio" id="fresa" name="sabor">
+                    <label for="fresa">Fresa</label>
+                    <br>
+                    <input type="radio" id="limon" name="sabor">
+                    <label for="limon">Limón</label>
+                    <br>
+                    <input type="radio" id="nuez" name="sabor">
+                    <label for="nuez">Nuez</label>
+                    <br>
+                    <input type="radio" id="red velvet" name="sabor">
+                    <label for="red velvet">Red Velvet</label>
+                    <br>
+                    <input type="radio" id="tres" name="sabor">
+                    <label for="tres">Tres Leches</label>
+                    <br>
+                    <input type="radio" id="vainilla" name="sabor">
+                    <label for="vainilla">Vainilla</label>
+                    <br>
+                    <input type="radio" id="zanahoria" name="sabor">
+                    <label for="zanahoria">Zanahoria</label>
+                    <br>
+                </li>
+                <li class="adornos">
+                    <p>Seleccione los adornos del pastel:</p>
+                    <input type="checkbox" id="barra-chocolate" name="barra-chocolate">
+                    <label for="barra-chocolate">Barra de Chocolate</label>
+                    <br>
+                    <input type="checkbox" id="Gomitas" name="Gomitas">
+                    <label for="Gomitas">Gomitas</label>
+                    <br>
+                    <input type="checkbox" id="especial" name="especial">
+                    <label for="especial">Especial o evento</label>
+                    <br>
+                    <input type="checkbox" id="confiteria" name="confiteria">
+                    <label for="confiteria">Confitería</label>
+                    <br>
+                    <input type="checkbox" id="frutas" name="frutas">
+                    <label for="frutas">Variedad de Frutas</label>
+                    <br>
+                    <input type="checkbox" id="fondant" name="fondant">
+                    <label for="fondant">Fondant</label>
+                    <br>
+                    <input type="checkbox" id="NA" name="NA">
+                    <label for="NA">No Aplica</label>
+                    <br>
+                </li>
+                <li class="inf">
+                    <label for="nombre">Ingrese su nombre:</label>
+                    <br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Su nombre" class="texto">
+                    <br>
+                </li>
+                <li class="inf">    
+                    <label for="telefono">Ingrese su teléfono:</label>
+                        <br>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Su teléfono a 10 dígitos" maxlength="10" class="texto">
+                        <br>
+                </li>
+                <li class="inf">
+                    <label for="correo">Ingrese su correo:</label>
+                        <br>
+                    <input type="email" id="correo" name="correo" placeholder="Su correo" class="texto">
+                        <br>
+                </li>
+                <li class="inf">
+                    <label for="desc">Ingrese una descripción sobre su pedido:</label>
+                        <br>
+                    <textarea id="desc" name="desc" placeholder="Su descripción" class="texto"></textarea>
+                        <br>
+                </li>
+                <button type="submit" class="send">Enviar</button>
+            </ul>
+        </form>
+    </section>
+</body>
+</html>

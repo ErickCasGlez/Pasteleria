@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.logo{
+    border: 2px solid black;
+    inset: 0;
+    width: 10%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.icon{
+    width: 2.5%;
+    float: right;
+    position: relative;
+    align-self:flex-end;
+    padding: 5px;
+}
+
+.datos{
+    max-width: 1200px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px 10px;
+    position: relative;
+    border-style: double;
+    border-width: 0px 5px 0px 5px;
+    border-radius: 10%;
+}
+
+.info{  
+    margin: 0;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.division{
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    border-radius: 50%;
+    box-shadow: 1px 4px 15px 0 gray;
+    margin-bottom: 20px;
+}
+
+.menu{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    border-width: 0px 3px 0px 3px;
+    font-size: 20px;
+    font-weight: bold;
+    padding:0px 3px;
+    border-color: black;
+    border-style: double;
+}
+.menu:hover{
+    box-shadow:15px 15px 15px gray;
+}
+
+.final{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    overflow: hidden;
+}
+
+.sabores{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1200px;
+    min-width: 300px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sabor{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border-radius: 25%;
+    border-color: black;
+    border-style: dotted;
+    align-items: center;
+}
+
+.nombre{
+    text-decoration: none;
+    color: black;
+}
+
+.nombre:hover{
+    text-decoration: line-through;
+    color: blue;
+}
